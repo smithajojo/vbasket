@@ -52,8 +52,13 @@ class Cart:
                     item._quantity = item._quantity + 1
                     item._totPrice = item._quantity * product._price
 
-    def RemoveFromCart(self):
-        pass
+    def RemoveFromCart(self,product):
+        print("Input ", product._name)
+        for item in self._cartlst:
+            print("Available ", item._product._name)
+            if item._product._name == product._name:
+                item._quantity = item._quantity - 1
+                item._totPrice = item._quantity * product._price
 
     def ApplyDiscounts(self):
         pass
@@ -79,4 +84,7 @@ c.AddToCart(Product("Mobile",50))
 c.AddToCart(Product("Mobile",50))
 c.AddToCart(Product("Mobile",50))
 c.AddToCart(Product("Laptop", 75))
+c.DisplayCart()
+c.RemoveFromCart(Product("Laptop", 75))
+c.RemoveFromCart(Product("Laptop", 75))
 c.DisplayCart()
