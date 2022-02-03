@@ -35,5 +35,21 @@ class AddressFinder:
     def SearchBy(self,inputproperty,inputpropertyvalue):
         print("Search " + inputproperty + "=" +str(inputpropertyvalue))
 
+        result = []
+        for ad in self.addresslist:
+            if inputproperty == "FlatNo":
+                if (ad._flatno == inputpropertyvalue):
+                    result.append(ad)
 
-        pass
+            if inputproperty == "Street":
+                if ((ad._street).upper() == inputpropertyvalue.upper()):
+                    result.append(ad)
+
+            if inputproperty == "Zipcode":
+                if ((ad._zipcode).upper() == inputpropertyvalue.upper()):
+                    result.append(ad)
+
+        return result
+
+
+

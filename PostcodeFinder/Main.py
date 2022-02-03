@@ -5,7 +5,7 @@ adf = AddressFinder.AddressFinder()
 adf.AddAddress(AddressFile.Address(71,"Northum","Cedar","SM25Fr","UK"))
 adf.AddAddress(AddressFile.Address(72,"Northum","Cedar","SM25Fr","UK"))
 adf.AddAddress(AddressFile.Address(73,"Northum","Cedar","SM25Fr","UK"))
-adf.AddAddress(AddressFile.Address(74,"Northum","Wellesley","SM25Fr","UK"))
+adf.AddAddress(AddressFile.Address(71,"Northum","Wellesley","SM25Fr","UK"))
 adf.AddAddress(AddressFile.Address(72,"Northum","Cedar","SM15Fr","UK"))
 
 addresslist = adf.GetAllAddress()
@@ -34,4 +34,11 @@ for res in result:
     print(res._flatno,res._street, res._zipcode)
 
 x = adf.SearchBy("FlatNo",71)
-y = adf.SearchBy("Street","Cedar")
+# y = adf.SearchBy("Street","Cedar")
+
+
+for res in x:
+    print(res._street)
+
+# for res in y:
+#     print(res._flatno)
