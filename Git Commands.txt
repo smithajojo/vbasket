@@ -1,0 +1,10 @@
+git branch -M main
+git remote add origin https://github.com/smithajojo/vbasket.git
+git push -u origin main
+
+
+git status
+If there is new files git add
+git stage
+git commit -m "Message"
+git push

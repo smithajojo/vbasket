@@ -1,0 +1,27 @@
+[
+  {
+  "pcode": "LAP10",
+  "pname": "Laptop",
+  "pprice": "300"
+  },
+  {
+  "pcode": "SPK24",
+  "pname": "Speaker",
+  "pprice": "100"
+  },
+  {
+  "pcode": "COM63",
+  "pname": "Computer",
+  "pprice": "250"
+  },
+  {
+  "pcode": "KB11",
+  "pname": "KeyBoard",
+  "pprice": "45"
+  },
+  {
+  "pcode": "MS75",
+  "pname": "Mouse",
+  "pprice": "30"
+  }
+]

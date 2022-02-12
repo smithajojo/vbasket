@@ -1,0 +1,27 @@
+[
+    {
+        "pcode" : "L110",
+        "pname" : "Laptop",
+        "pprice" : 500
+    },
+    {
+        "pcode" : "C265",
+        "pname" : "Computer",
+        "pprice" : 280
+    },
+    {
+        "pcode" : "S222",
+        "pname" : "Speaker",
+        "pprice" : 150
+    },
+    {
+        "pcode" : "K210",
+        "pname" : "Keyboard",
+        "pprice" : 280
+    },
+    {
+        "pcode" : "I150",
+        "pname" : "Ipad",
+        "pprice" : 400
+    },
+]

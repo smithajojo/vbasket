@@ -1,0 +1,53 @@
+[
+  {
+    "fb_acc": "20006",
+    "fb_name": "smitha jojo",
+    "fb_add": "sm@jojo.com",
+    "Frinds": [
+      {
+        "fb_acc": "29006",
+        "fb_name": "anu som",
+        "fb_add": "anu@sm.com",
+        "Frinds": [
+          {
+            "fb_acc": "29106",
+            "fb_name": "jojo",
+            "fb_add": "jojo@sm.com",
+            "Frinds": ""
+          }
+        ]
+      },
+      {
+        "fb_acc": "29106",
+        "fb_name": "jojo",
+        "fb_add": "jojo@sm.com",
+        "Frinds": ""
+      }
+    ]
+  },
+  {
+    "fb_acc": "29006",
+    "fb_name": "anu som",
+    "fb_add": "anu@sm.com",
+    "Frinds": [
+      {
+        "fb_acc": "29106",
+        "fb_name": "jojo",
+        "fb_add": "jojo@sm.com",
+        "Frinds": ""
+      }
+    ]
+  },
+  {
+    "fb_acc": "29106",
+    "fb_name": "jojo",
+    "fb_add": "jojo@sm.com",
+    "Frinds": ""
+  },
+  {
+    "fb_acc": "3490",
+    "fb_name": "kukku",
+    "fb_add": "kukku@sm.com",
+    "Frinds": ""
+  }
+]
