@@ -1,3 +1,5 @@
+import os.path
+
 import Product
 import  random
 class PManager:
@@ -26,3 +28,8 @@ class PManager:
         self.AddItem(p2)
         p3 = Product.Product("MON","Monitor",150)
         self.AddItem(p3)
+
+    def ReadProducts(self):
+        filepath = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
+        print(filepath)
+        actualfile = os.path.join(filepath, 'vbasket\\Data\\Product.json')
